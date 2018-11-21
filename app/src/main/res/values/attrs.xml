@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ItemView">
+
+        <attr name="leftText" format="string"/>
+        <attr name="rightText" format="string"/>
+        <attr name="isShowArrow" format="boolean"/>
+
+
+    </declare-styleable>
+
+
+</resources>
