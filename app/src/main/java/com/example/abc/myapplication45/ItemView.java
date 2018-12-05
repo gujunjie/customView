@@ -28,7 +28,7 @@ public class ItemView extends RelativeLayout {
         super(context, attrs);
 
         LayoutInflater.from(context).inflate(R.layout.item_layout, this);
-        ButterKnife.bind(this);//在自定义view中使用bufferknife时需要加上这行代码，不然获取不到控件实例报空指针异常
+        ButterKnife.bind(this);//在自定义view中使用bufferknife时需要加上这行代码，不然获取不到控件实例报空指针异常，而且这行代码要写在上一行代码的后面，不然会绑定不了控件
 
 
         //自定义属性
